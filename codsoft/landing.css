@@ -1,0 +1,182 @@
+/* css page */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#back{
+    font-family: Arial, sans-serif;
+    /* line-height: 1.6; */
+    /* background-image: linear-gradient(to right,rgb(80, 253, 152),rgb(9, 255, 0)); */
+    background-image: linear-gradient(to right,rgb(76, 228, 248),rgb(128, 143, 140));
+}
+
+.contact{
+    /* background-image: linear-gradient(to right,rgb(80, 253, 152),rgb(9, 255, 0)); */
+    background-image: linear-gradient(to right,rgb(76, 228, 248),rgb(128, 143, 140));
+    height: 30px;
+    color: whitesmoke;
+    /* border: 2px solid white; */
+}
+
+i{
+    color: white;
+    padding-left: 150px;
+    /* margin-inline-start: 20px; */
+    margin-top: 5px;
+}
+
+a{
+    margin-right: 50px;
+    color: black;
+    /* margin-top: 5px; */
+}
+
+#navbar{
+    height: 50px;
+    /* margin-top: 5px; */
+    background-color: white;
+    color: black;
+}
+
+/* header{
+    margin: 5px 20px 10px 80px;
+} */
+
+/* .pic{
+    height: 500px; */
+    /* width: px; */
+    /* margin-top: auto; */
+    /* margin-left: 318px; */
+    /* border-radius: 10%; */
+    /* background-image: url("road_between_trees_branches_bushes_forest_nature_background_4k_hd_nature.jpg");
+    background-size: cover; */
+    /* color: white; */
+    /* text-decoration: white; */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    /* opacity: 70%;
+    .pic_.landing{
+        h1,h2{
+            font-size: 50px;
+            color: white;
+            opacity: 100%;
+        }
+        p{
+            font-size: 20px;
+            color: white;
+            opacity: 100%;
+        }
+    } 
+} */
+
+.landing{
+    height: 500px;
+    background-image: url("newforest.jpg");
+    background-size: cover;
+    h2{
+        font-size: 30px;
+        color: white;
+        padding-left: 150px;
+        padding-top: 90px;
+    }
+    h4{
+        font-size: 20px;
+        color: white;
+        padding-left: 150px;
+        padding-top: 10px;
+    }
+    p{
+        font-size: 15px;
+        color: white;
+        padding-left: 150px;
+    }
+}
+
+.about{
+    i{
+        margin-left: 26px;
+    }
+    p{
+        color: white;
+    }
+    height: 70px;
+    margin-top: 30px;
+}
+
+#foot{
+    background-color: white;
+}
+
+#foot{
+    padding: 55px 30px 10px 150px;
+}
+
+#btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 30%;
+    background-image: linear-gradient(to right,rgb(76, 228, 248),rgb(128, 143, 140));
+    text-decoration: white;
+    margin-top: -100px;
+}
+
+#img{
+    background-image: url("aboutremove.png");
+    margin-top: -150px;
+    height: 200px;
+    width: 300px;
+    margin-left: 600px;
+}
+
+#servies{
+    i{
+        color: black;
+        padding: 0%;
+        margin-top: auto;
+        margin-right: 75px;
+    }
+    h3{
+        margin-top: 140px;
+    }
+    /* margin-top: 50px; */
+}
+
+#exp{
+    background-image: url("experience.jpg");
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    background-size: cover;
+}
+#cd{
+    background-image: url("Creative.jpeg");
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    background-size: cover;
+}
+#dm{
+    background-image: url("digital marketing.jpeg");
+    height: 150px;
+    width: 150px;
+    margin-left: 60px;
+    background-size: cover;
+}
+#wd{
+    background-image: url("web. Vector design");
+    height: 150px;
+    width: 150px;
+    margin-left: 80px;
+    background-size: cover;
+}
+
+#copyright{
+    background-image: linear-gradient(to right,rgb(76, 228, 248),rgb(128, 143, 140));
+    height: 100px;
+    padding: 55px 30px 10px 150px;
+    margin: 0%;
+    h2{
+        color: black;
+    }
+}
