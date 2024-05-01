@@ -1,0 +1,482 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(172, 23, 218);
+}
+
+/* .back{
+    /* background-color: rgb(172, 23, 218); 
+} 
+
+nav{
+    height: 70px;
+    background-color: rgb(112, 13, 112);
+    /* margin-top: 5px; 
+    /* margin-right: 20px; 
+}
+
+/* .navbar{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 250px;
+    color: white;
+} */
+
+*{
+    margin: 0px;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#1f242d,#323946);
+}
+
+nav{
+    height: 50px;
+    /* background-color: black; */
+    padding-top: 20px;
+    font-size: large;
+    padding-left: 850px;
+}
+
+a:hover{
+    color: #0ef;
+    box-shadow:-9px 9px 26px -1px #0ef
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    /* margin-top: 10px; */
+    margin-right: 55px;
+}
+
+header{
+    h3{
+        margin-left: 170px;
+        margin-top: 100px;
+        font-size: 250%;
+        color:white ;
+    }
+    h1{
+        margin-left: 170px;
+        margin-top: 0px;
+        font-size:400%;
+        color:white ;
+    }
+    h2{
+        margin-left: 170px;
+        margin-top: 0px;
+        color:white ;
+        font-size: 150%;
+        p{
+            color: #0ef;
+            margin-left: 47px;
+            margin-top: -27px;
+            font-size: 100%;
+        }
+    }
+    p{
+        margin-left: 170px;
+        margin-top: 25px;
+        font-size: 140%;
+        color: white;
+    }
+    /* button{
+        margin-right: auto;
+        margin-top: 25px;
+        margin-left: 170px;
+    } */
+    .social-media{
+        margin-left: 170px;
+        margin-top: 25px;
+    }
+    i{
+        color: #0ef;
+    }
+}
+
+/*button{
+    /* margin-right: auto;
+    margin-top: 25px;
+    margin-left: 170px; */
+    /* margin-left: 170px;
+    margin-top: 25px; 
+}
+
+/* @media only screen and (mix-width: 400px){
+    body{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    body{
+        width: 1080px;
+        height: 1080px;
+    }
+} */
+
+#contact{
+    margin-left: 15%;
+    margin-top: 25px;
+    height: 30px;
+    width: 120px;
+    border-radius: 100px;
+    background-color: #0ef;
+    color: black;
+    /* box-shadow:-9px 9px 26px -1px #0ef; */
+}
+
+#resume{
+    margin-left: 5%;
+    margin-top: 25px;
+    height: 30px;
+    width: 120px;
+    border-radius: 100px;
+    background-color: #0ef;
+    color: black;
+    /* box-shadow:-9px 9px 26px -1px #0ef; */
+}
+
+#contact:hover{
+    box-shadow:-9px 9px 26px -1px #0ef;
+}
+
+#resume:hover{
+    box-shadow:-9px 9px 26px -1px #0ef;
+}
+
+/* .hexagon { 
+    top: 30vh; 
+    right: 150px; 
+    position: absolute; 
+    margin: 0 auto; 
+    background-color: #323946;
+    border: 2px solid #0ef;
+    border-radius: 10px; 
+    width: 300px;  
+    height: 180px; 
+    box-sizing: border-box; 
+    transition: all 1s; 
+    /* border: 0.4vh solid transparent; 
+} 
+  
+Creating pseudo-class
+.hexagon:before, .hexagon:after { 
+    content: url("aboutremove.png"); 
+    border: inherit; 
+    position: absolute; 
+    top: -0.5vh; 
+    left: -0.5vh; 
+    background-color: #323946; 
+    border: 2px solid #0ef;
+    border-radius: inherit; 
+    height: 100%; 
+    width: 100%; 
+} 
+  
+Align them in such a way 
+that they form a hexagon
+.hexagon:before { 
+    transform: rotate(60deg); 
+} 
+.hexagon:after { 
+    transform: rotate(-60deg); 
+}  */
+
+.pic{
+    height: 300px;
+    width: 300px;
+    /* right: 150px; */
+    margin-top: -300px;
+    margin-left: 950px;
+    border: 5px solid #0ef;
+    border-radius: 50%;
+    background-image: url("aboutremove.png");
+    background-size: cover;
+    /* background-position: center; */
+}
+
+main{
+    h2{
+        margin-left: 690px;
+        margin-top: 272px;
+        color:white ;
+        font-size: 350%;
+    }
+    p{
+        color: white;
+        margin-left: 700px;
+        margin-top: 24px;
+        font-size: 140%;
+    }
+}
+
+table{
+    /* height: 200px;
+    width: 200px; */
+    margin-left: 200px;
+    margin-top: -208px;
+    .r1{
+        height: 120px;
+        /* width: 100px; */
+    }
+    .r2{
+        height: 120px;
+        /* width: 100px; */
+    }
+    .r3{
+        height: 120px;
+        /* width: 100px; */
+    }
+    .html{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("html.png");
+        background-size: cover;
+    }
+    .css{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("css2.png");
+        background-size: cover;
+    }
+    .javascript{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("javascript2.png");
+        background-size: cover;
+    }
+    .react{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("react2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .nodejs{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("nodejs.png");
+        background-size: cover;
+    }
+    .mongodb{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("mongodb.png");
+        background-size: cover;
+    }
+    .python{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("python2.png");
+        background-size: cover;
+    }
+    .c{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("c.png");
+        background-size: cover;
+    }
+    .cpp{
+        border: 2px solid #0ef;
+        width: 120px;
+        /* height: 200px; */
+        background-image: url("c++.png");
+        background-size: cover;
+    }
+}
+
+/* ul{
+    margin-right: 20px;
+} */
+
+#skills{
+    h2{
+        font-size: 250%;
+        margin-top: 250px;
+        margin-left: 130px;
+    }
+    p{
+        margin-top: 53px;
+        margin-left: 131px;
+    }
+    table{
+        width: 600px;
+        height: 250px;
+        /* margin-right: 10px; */
+        margin-left: 627px;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        margin-top: -191px;
+        color: black;
+    }
+    
+    .poll1{
+        height: 120px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: #0ef;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-left: 10px;
+        .htmlbar{
+            height: 5px;
+            width: 90%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .cssbar{
+            height: 5px;
+            width: 80%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .jsbar{
+            height: 5px;
+            width: 70%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+    
+    .poll2{
+        height: 120px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: #0ef;
+        border-radius: 10px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        .reactbar{
+            height: 5px;
+            width: 50%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .nodejsbar{
+            height: 5px;
+            width: 80%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .mongodbbar{
+            height: 5px;
+            width: 70%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+    
+    .poll3{
+        height: 120px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        background-color: #0ef;
+        .pythonbar{
+            height: 5px;
+            width: 90%;
+            border: 2px solid blaCK;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .cbar{
+            height: 5px;
+            width: 30%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .cppbar{
+            height: 5px;
+            width: 50%;
+            border: 2px solid black;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 10px;
+        }
+    }
+}
+
+#projects{
+    h1{
+        margin-top: 201px;
+        /* margin-right: 0px; */
+        margin-left: 682px;
+    }
+    p{
+        margin-top: -148px;
+        margin-right: 0px;
+        margin-left: 680px;
+    }
+}
+
+.pro{
+    height: 200px;
+    width: 500px;
+    margin-top: 11px;
+    /* margin-right: 0px; */
+    margin-left: 112px;
+    background-image: url("Screenshot 2024-05-01 223019.png");
+    background-size: cover;
+}
+
+footer{
+    height: 430px;
+    width: 600px;
+    background-color: #1f242d;
+    color: white;
+    /* text-align: center; */
+    margin-top: 120px;
+    border: 2px solid white;
+    margin-left: 333px;
+    .summit{
+        /* margin-left: 5%;
+        margin-top: 25px; */
+        height: 30px;
+        width: 120px;
+        border-radius: 100px;
+        background-color: #0ef;
+        color: black;
+    }
+}
+
+.copyright{
+    background-color: #323946;
+    color: white;
+
+}
